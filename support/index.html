@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support — 2FA Vault</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #1e293b; line-height: 1.7; }
+    header { background: #0f172a; padding: 20px 24px; }
+    header a { color: #e2e8f0; text-decoration: none; font-weight: 700; font-size: 1rem; }
+    .content { max-width: 640px; margin: 0 auto; padding: 48px 24px; }
+    h1 { font-size: 2rem; font-weight: 800; margin-bottom: 8px; color: #0f172a; }
+    .lead { color: #64748b; font-size: 1.05rem; margin-bottom: 40px; }
+    h2 { font-size: 1.1rem; font-weight: 700; margin: 32px 0 8px; color: #0f172a; }
+    p { color: #475569; margin-bottom: 12px; }
+    .faq { background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 24px; margin-bottom: 12px; }
+    .faq h3 { font-size: 0.95rem; font-weight: 700; color: #0f172a; margin-bottom: 6px; }
+    .faq p { margin: 0; font-size: 0.9rem; }
+    .contact-box { background: #0f172a; color: #e2e8f0; border-radius: 12px; padding: 28px; margin-top: 40px; text-align: center; }
+    .contact-box h2 { color: #fff; margin: 0 0 8px; }
+    .contact-box p { color: #94a3b8; margin-bottom: 16px; }
+    .contact-box a { color: #10b981; font-weight: 700; text-decoration: none; font-size: 1.05rem; }
+  </style>
+</head>
+<body>
+  <header><a href="../">← 2FA Vault</a></header>
+  <div class="content">
+    <h1>Support</h1>
+    <p class="lead">Need help with 2FA Vault? We're here for you.</p>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq">
+      <h3>Where is my vault data stored?</h3>
+      <p>Your vault is stored locally on your Mac in your Application Support directory. It never leaves your device and is not synced to any cloud service.</p>
+    </div>
+    <div class="faq">
+      <h3>I forgot my master password. Can I recover my accounts?</h3>
+      <p>No — your vault is encrypted with your master password and there is no recovery mechanism. This is by design to ensure your data stays private. We recommend storing your master password in a password manager.</p>
+    </div>
+    <div class="faq">
+      <h3>How do I add an account?</h3>
+      <p>Click "+ Add Account" and either scan a QR code (from your camera or screen) or enter the secret key manually. You'll find the secret key in your service's 2FA setup page under "can't scan QR code".</p>
+    </div>
+    <div class="faq">
+      <h3>Can I use 2FA Vault on multiple Macs?</h3>
+      <p>Yes. You can manually copy your vault file between Macs. The vault file is located at: ~/Library/Application Support/2fa-vault/vault.enc</p>
+    </div>
+    <div class="faq">
+      <h3>Why does the app request screen recording permission?</h3>
+      <p>2FA Vault can detect QR codes displayed on your screen, so you can add accounts without needing your phone nearby. Screen data is only used locally for QR detection and is never recorded or transmitted.</p>
+    </div>
+
+    <div class="contact-box">
+      <h2>Still need help?</h2>
+      <p>Send us an email and we'll get back to you within 1–2 business days.</p>
+      <a href="mailto:alexpalco@gmail.com">alexpalco@gmail.com</a>
+    </div>
+  </div>
+</body>
+</html>

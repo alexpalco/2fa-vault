@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — 2FA Vault</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f8fafc; color: #1e293b; line-height: 1.7; }
+    header { background: #0f172a; padding: 20px 24px; }
+    header a { color: #e2e8f0; text-decoration: none; font-weight: 700; font-size: 1rem; }
+    .content { max-width: 640px; margin: 0 auto; padding: 48px 24px; }
+    h1 { font-size: 2rem; font-weight: 800; margin-bottom: 8px; color: #0f172a; }
+    .lead { color: #64748b; font-size: 1.05rem; margin-bottom: 8px; }
+    .updated { color: #94a3b8; font-size: 0.85rem; margin-bottom: 40px; }
+    h2 { font-size: 1.1rem; font-weight: 700; margin: 32px 0 8px; color: #0f172a; }
+    p { color: #475569; margin-bottom: 12px; }
+    ul { color: #475569; padding-left: 20px; margin-bottom: 12px; }
+    ul li { margin-bottom: 4px; }
+    .highlight { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 10px; padding: 16px 20px; margin: 24px 0; }
+    .highlight p { color: #166534; margin: 0; font-weight: 600; }
+    footer { text-align: center; padding: 32px 24px; color: #94a3b8; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+  <header><a href="../">← 2FA Vault</a></header>
+  <div class="content">
+    <h1>Privacy Policy</h1>
+    <p class="lead">Your privacy is the foundation of 2FA Vault.</p>
+    <p class="updated">Last updated: May 2025</p>
+
+    <div class="highlight">
+      <p>🔒 2FA Vault does not collect, transmit, or share any personal data. Everything stays on your device.</p>
+    </div>
+
+    <h2>Data We Collect</h2>
+    <p>We collect no data. 2FA Vault operates entirely on your local device. We have no servers, no accounts, and no analytics.</p>
+
+    <h2>How Your Data Is Stored</h2>
+    <p>Your 2FA accounts and secrets are stored in an encrypted vault file on your Mac. The vault is encrypted with AES-256-GCM using a key derived from your master password. The vault file is located at:</p>
+    <p><code>~/Library/Application Support/2fa-vault/vault.enc</code></p>
+    <p>This file never leaves your device unless you explicitly copy it yourself.</p>
+
+    <h2>Camera Access</h2>
+    <p>2FA Vault requests camera access to scan QR codes when adding new accounts. Camera data is processed locally in real time and is never stored or transmitted.</p>
+
+    <h2>Screen Recording Access</h2>
+    <p>2FA Vault requests screen recording permission to detect QR codes displayed on your screen. Screen content is processed locally in real time for QR code detection only and is never recorded, stored, or transmitted.</p>
+
+    <h2>Third-Party Services</h2>
+    <p>2FA Vault does not use any third-party SDKs, analytics services, advertising networks, or cloud services.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>2FA Vault does not collect any personal data from anyone, including children under 13.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>If we update this privacy policy, we will post the updated version here with a new effective date.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about privacy? Email us at <a href="mailto:alexpalco@gmail.com" style="color:#0f172a">alexpalco@gmail.com</a>.</p>
+  </div>
+  <footer>© 2025 Alexander Pal Corrales · 2FA Vault</footer>
+</body>
+</html>
